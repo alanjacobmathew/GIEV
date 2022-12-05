@@ -1,0 +1,64 @@
+	*{
+	box-sizing: border-box;
+	margin: 2px;
+	padding: 2px;
+	}
+		body{
+		color: white;
+		background-color: #000000;
+		font-family: 'Verdana', sans-serif;
+		}	
+		.credit img{
+		width:65px;
+		position:fixed;
+		right:0;
+		}
+		
+		.Header{
+			margin-top: 30px; 
+			font-size: 0.8em;
+			font-weight:400;
+			border: 3px solid grey;
+			text-align:center;
+		}
+		
+		.Header h3 a{ 
+		 	color: #24ff00;
+			text-decoration:none;
+		}
+		.Header a{
+			color: white;
+			text-decoration:none
+		}
+		
+		.links{
+		text-align:center;
+		}
+		
+		.footer{
+		position:fixed;
+		top: 78vh;
+		}
+		.data{
+		padding-top:10px;
+		text-align: center;
+		}
+		
+		
+		@media only screen and (min-width: 999px)
+		{
+		.Header{
+		font-size: 1.2em;
+		font-weight:400;
+		margin: 30px 250px 0px 250px;
+		}
+		.links{
+		margin: 30px 250px 0px 250px;
+		}
+		
+		.credit img{
+		width:80px;
+		position: fixed;
+		top:92vh;
+		right:0;
+		}
